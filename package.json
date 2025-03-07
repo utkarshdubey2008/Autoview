@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "worker.js",
   "scripts": {
-    "deploy": "wrangler publish"
+    "deploy": "wrangler publish",
+    "build": "echo \"No build step defined\""
   },
   "devDependencies": {},
   "dependencies": {}
