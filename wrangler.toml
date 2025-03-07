@@ -1,0 +1,10 @@
+name = "rapidx-cloudflare-worker"
+type = "javascript"
+account_id = "your_account_id"
+workers_dev = true
+compatibility_date = "2025-03-07"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+main = "worker.js"
