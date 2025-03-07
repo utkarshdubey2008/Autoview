@@ -1,6 +1,6 @@
-name = "rapidx-cloudflare-worker"
+name = "autoview"
 type = "javascript"
-account_id = "your_account_id"
+account_id = "294c98cb3633c3a8a8ead5e5e82f02b1"
 workers_dev = true
 compatibility_date = "2025-03-07"
 
