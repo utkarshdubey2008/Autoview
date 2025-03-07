@@ -6,5 +6,4 @@ compatibility_date = "2025-03-07"
 
 [build]
 command = "npm install && npm run build"
-[build.upload]
-main = "worker.js"
+main = "dist/worker.js"
