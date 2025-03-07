@@ -1,11 +1,13 @@
 {
   "name": "rapidx-cloudflare-worker",
   "version": "1.0.0",
-  "main": "worker.js",
+  "main": "dist/worker.js",
   "scripts": {
     "deploy": "wrangler publish",
-    "build": "echo \"No build step defined\""
+    "build": "esbuild worker.js --bundle --outdir=dist"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.14.0"
+  },
   "dependencies": {}
 }
