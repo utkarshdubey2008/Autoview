@@ -1,9 +1,10 @@
 {
-  "name": "cloudflare-visitor-bot",
+  "name": "rapidx-cloudflare-worker",
   "version": "1.0.0",
-  "private": true,
+  "main": "worker.js",
   "scripts": {
     "deploy": "wrangler publish"
   },
+  "devDependencies": {},
   "dependencies": {}
 }
